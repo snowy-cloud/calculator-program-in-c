@@ -9,7 +9,7 @@ int main()
 	scanf("%d",no2);
 
 	printf("what operation would you like to operate? \n");
-	printf("1.for addition type a \n 2.for substraction type b");
+	printf("1.for addition type a \n 2.for substraction type b \n 3. for the product type p");
 	scanf("%c",oper);
 	
 	switch(oper)
@@ -19,6 +19,9 @@ int main()
 			break;
 		case b :
 			result=no1-no2;
+			break;
+		case c ;
+			result=no1*no2;
 			break;
 	}
 	return 0;

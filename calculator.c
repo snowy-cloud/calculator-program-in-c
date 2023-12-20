@@ -14,13 +14,13 @@ int main()
 	
 	switch(oper)
 	{
-		case a :
+		case 'a' :
 			result=no1+no2;
 			break;
-		case b :
+		case 'b' :
 			result=no1-no2;
 			break;
-		case c ;
+		case 'c' ;
 			result=no1*no2;
 			break;
 	}
